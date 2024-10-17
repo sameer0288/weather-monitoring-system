@@ -64,7 +64,7 @@ cd weather-monitoring-system
 ## Create a .env file in the backend directory and add the following environment variables:
 
 env
-
+```bash
 PORT=5000
 MONGODB_URI=your_mongodb_uri
 OPENWEATHERMAP_API_KEY=your_openweathermap_api_key
@@ -72,6 +72,7 @@ EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_password
 POLLING_INTERVAL=300000
 PORT=5000
+```
 
 ## Start the backend server:
 
